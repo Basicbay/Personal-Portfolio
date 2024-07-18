@@ -1,5 +1,6 @@
 import React from "react";
 import { twMerge } from "tailwind-merge";
+import project from "../../assets/pdf/project.pdf";
 
 interface ProjectItem {
   image: string;
@@ -19,11 +20,7 @@ const ProjectList: React.FC<ProjectListProps> = ({ items }) => {
         <a
           key={item.key}
           className="border border-gray-200 dark:border-gray-800 rounded-xl transition ease-in-out xl:hover:scale-105 duration-100 shadow-md shadow-gray-200 dark:shadow-[#03071260] "
-          href={
-            index === 4
-              ? "src/assets/pdf/project.pdf"
-              : "/"
-          }
+          href={index === 4 ? project : "/"}
           target="_blank"
         >
           <img

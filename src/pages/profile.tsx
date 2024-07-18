@@ -1,6 +1,8 @@
 import { Icon } from "@iconify/react";
 import Alert from "../components/common/alert";
 import { useState } from "react";
+import avatar from '../assets/avatar/capture.png'
+import resume from '../assets/pdf/resume.pdf'
 
 function Profile() {
   const [alertVisible, setAlertVisible] = useState(false);
@@ -15,7 +17,7 @@ function Profile() {
     <div className="flex flex-col gap-y-5 items-center xl:items-start">
       <img
         className="w-48 h-48 rounded-full p-1 ring-2 ring-gray-300 mb-2 "
-        src="src\assets\avatar.png"
+        src={avatar}
         alt="avatar"
       />
       <div className="flex flex-col gap-y-5 items-center xl:items-start">
@@ -33,7 +35,7 @@ function Profile() {
       <div className="flex gap-x-2">
         <a
           className=" bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-bold rounded-lg text-lg px-2.5 py-1 text-center inline-flex items-center dark:focus:ring-gray-800 dark:bg-white dark:border-gray-700 dark:text-gray-900 dark:hover:bg-gray-200"
-          href="src\assets\pdf\resume.pdf" target="_blank"
+          href={resume} target="_blank"
         >
           Resume
         </a>

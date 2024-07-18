@@ -22,9 +22,9 @@ const CardList: React.FC<CardListProps> = ({ items }) => {
           className={twMerge(
             "bg-cover relative flex flex-col gap-y-5 md:max-w-72 h-72 w-full p-7 rounded-xl transition ease-in-out xl:hover:scale-105 duration-100 bg-gray-50 xl:hover:bg-gray-100 border border-gray-200 shadow-md shadow-gray-200  dark:bg-gray-800 xl:hover:dark:bg-gray-700 dark:border-gray-700 dark:shadow-[#03071260] ",
             index === 0 &&
-              "border-0 bg-[url('src/assets/backgrounds/day.jpg')] dark:bg-[url('src/assets/backgrounds/night.jpg')] cursor-default",
+              "border-0 bg-[url('/src/assets/backgrounds/day.jpg')] dark:bg-[url('/src/assets/backgrounds/night.jpg')] cursor-default",
             index === 3 &&
-              "border-0 bg-[url('src/assets/backgrounds/white.jpg')] dark:bg-[url('src/assets/backgrounds/black.jpg')] cursor-default",
+              "border-0 bg-[url('/src/assets/backgrounds/white.jpg')] dark:bg-[url('/src/assets/backgrounds/black.jpg')] cursor-default",
             index === 4 && "cursor-default",
             index === 5 && "cursor-default"
           )}
