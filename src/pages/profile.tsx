@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 import Alert from "../components/common/alert";
 import { useState } from "react";
-import avatar from '../assets/avatar/capture.png'
+import avatar from '../assets/images/avatar/capture.png'
 import resume from '../assets/pdf/resume.pdf'
 
 function Profile() {

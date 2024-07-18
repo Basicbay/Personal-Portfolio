@@ -35,7 +35,7 @@ export default function DescSkills() {
         <div key={index} className="flex flex-col items-center">
           <img
             key={index}
-            src={`/src/assets/skills/${imageName}`}
+            src={`/public/icon/${imageName}`}
             alt="skill"
             className="w-10 h-10"
           />
