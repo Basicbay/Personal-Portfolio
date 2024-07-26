@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 import Alert from "../components/common/alert";
 import { useState } from "react";
-import avatar from '../assets/images/avatar/capture.png'
+import avatar from '../assets/images/avatar/me.jpg'
 import resume from '../assets/pdf/resume.pdf'
 
 function Profile() {
@@ -48,7 +48,7 @@ function Profile() {
           <Icon icon="mdi:github" style={{ fontSize: "28px" }} />
         </a>
         <a
-          href="https://www.linkedin.com/in/nattagrit-ridtikhab-83894b2a0/"
+          href="https://www.linkedin.com/in/nattagrit-ridtikhab"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white bg-[#2557D6] hover:bg-[#2557D6]/90 focus:ring-4 focus:ring-[#2557D6]/50 focus:outline-none font-medium rounded-lg text-sm px-2.5 py-1 text-center inline-flex items-center dark:focus:ring-[#2557D6]/50"
@@ -75,7 +75,7 @@ function Profile() {
         <div className="fixed top-5 left-1/2 transform -translate-x-1/2 text-sm z-50 text-nowrap ">
           {alertVisible && (
             <Alert
-              message="You Copied PhoneNumber"
+              message="Copied to clipboard"
               type="success"
               onClose={handleClose}
             />

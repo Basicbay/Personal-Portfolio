@@ -31,5 +31,6 @@ export const ExperienceItem: ExperienceItem[] = [
     desc: "Innobiz (Internship)",
     date: "2016",
   },
+  
 
 ];

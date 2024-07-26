@@ -7,12 +7,12 @@ interface HeadProps {
 
   export default function Head({ name }: HeadProps) {
   return (
-    <div className="flex items-center justify-between w-full  ">
+    <div className="flex items-center justify-between w-full">
       <p className="text-2xl font-bold">{name}</p>
-      <Link to="/">
+      <Link to="/" className=" hover:bg-purple-100 dark:hover:bg-purple-500/40 dark:hover:text-purple-300 bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 hover:text-purple-500 p-1 rounded-md">
         <Icon
           icon="line-md:close"
-          className="w-7 h-7 text-gray-500 dark:text-gray-400 hover:text-gray-50"
+          className="w-7 h-7 "
         />
       </Link>
     </div>

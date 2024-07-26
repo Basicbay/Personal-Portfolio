@@ -3,7 +3,7 @@ import Profile from "./profile";
 
 const Home = () => {
   return (
-    <div className="flex flex-col xl:flex-row items-center justify-center lg:h-screen gap-16 py-10 xl:py-0 ">
+    <div className="flex flex-col xl:flex-row items-center justify-center xl:h-screen xl:p-0 pt-20 gap-16">
       <Profile />
       <Outlet />
     </div>
