@@ -16,7 +16,7 @@ interface ProjectListProps {
 const ProjectList: React.FC<ProjectListProps> = ({ items }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-      {items.map((item, index) => (
+      {items.map((item) => (
         <a
           key={item.key}
           className=" flex flex-col gap-y-5 md:max-w-72 w-full rounded-xl transition ease-in-out xl:hover:scale-105 duration-100  xl:hover:bg-gray-100 border border-gray-200 shadow-md shadow-gray-200   xl:hover:dark:bg-gray-700 dark:border-gray-700 dark:shadow-[#03071260] "
