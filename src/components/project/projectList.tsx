@@ -19,7 +19,7 @@ const ProjectList: React.FC<ProjectListProps> = ({ items }) => {
       {items.map((item) => (
         <a
           key={item.key}
-          className=" flex flex-col gap-y-5 md:max-w-72 w-full rounded-xl transition ease-in-out xl:hover:scale-105 duration-100  xl:hover:bg-gray-100 border border-gray-200 shadow-md shadow-gray-200   xl:hover:dark:bg-gray-700 dark:border-gray-700 dark:shadow-[#03071260] "
+          className=" flex flex-col gap-y-1 md:max-w-72 w-full rounded-xl transition ease-in-out xl:hover:scale-105 duration-100  xl:hover:bg-gray-100 border border-gray-200 shadow-md shadow-gray-200   xl:hover:dark:bg-gray-700 dark:border-gray-700 dark:shadow-[#03071260] "
           href={item.link}
           target="_blank"
         >
@@ -29,7 +29,10 @@ const ProjectList: React.FC<ProjectListProps> = ({ items }) => {
               className={twMerge(
                 "text-xs font-medium px-2.5 py-0.5 rounded-lg w-fit",
                 item.tag === "Website"
-                  ? "bg-blue-100 text-blue-500 dark:bg-blue-900/40 dark:text-blue-300"
+                  ? "bg-sky-100 text-sky-500 dark:bg-sky-900/40 dark:text-sky-300"
+                  : "", 
+                  item.tag === "Web App"
+                  ? "bg-teal-100 text-teal-500 dark:bg-teal-900/40 dark:text-teal-300"
                   : "",
                 item.tag === "Application"
                   ? "bg-pink-100 text-pink-500 dark:bg-pink-900/40 dark:text-pink-300"

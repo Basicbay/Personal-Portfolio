@@ -53,6 +53,7 @@ export const CardItem: CardItem[] = [
   {
     key: "Skills",
     desc: <DescSkills />,
+    link: Link,
   },
   {
     key: "Education",

@@ -15,7 +15,7 @@ const Alert: React.FC<AlertProps> = ({
 }) => {
   const baseStyle = "p-4 rounded-md text-white mb-4";
   const typeStyles = {
-    success: "bg-purple-500",
+    success: "bg-green-500",
     error: "bg-red-500",
     warning: "bg-yellow-500",
     info: "bg-blue-500",

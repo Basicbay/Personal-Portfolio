@@ -7,7 +7,7 @@ import NextJS from '../../../public/icon/NextJS.svg'
 import Redux from '../../../public/icon/Redux.svg'
 import NodeJS from '../../../public/icon/NodeJS.svg'
 import TailwindCSS from '../../../public/icon/TailwindCSS.svg'
-import Bootstrap from '../../../public/icon/Bootstrap.svg'
+import Mui from '../../../public/icon/Mui.svg'
 import Git from '../../../public/icon/Git.svg'
 import Figma from '../../../public/icon/Figma.svg'
 
@@ -21,25 +21,10 @@ const imageNames = [
   Redux,
   NodeJS,
   TailwindCSS,
-  Bootstrap,
+  Mui,
   Git,
   Figma,
 ];
-
-// const imageTitles = [
-//   "CSS.svg",
-//   "HTML.svg",
-//   "JavaScript.svg",
-//   "TypeScript.svg",
-//   "React.svg",
-//   "NextJS.svg",
-//   "Redux.svg",
-//   "NodeJS.svg",
-//   "TailwindCSS.svg",
-//   "Bootstrap.svg",
-//   "Git.svg",
-//   "Figma.svg",
-// ];
 
 export default function DescSkills() {
   return (
@@ -50,9 +35,8 @@ export default function DescSkills() {
             key={index}
             src={imageName}
             alt="skill"
-            className="w-10 h-10"
+            className="w-9 h-9"
           />
-          {/* <p className="text-center mt-3 text-xs ">{imageTitles[index]}</p> */}
         </div>
       ))}
     </div>

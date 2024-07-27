@@ -8,6 +8,7 @@ import CardList from "./components/card/cardList.tsx";
 import Home from "./pages/home.tsx";
 import Project from "./pages/projects.tsx";
 import Experience from "./pages/experience.tsx";
+import Skills from "./pages/skills.tsx";
 
 const router = createBrowserRouter([
   {
@@ -16,8 +17,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "", 
-        element: <CardList items={CardItem} />, 
+        path: "",
+        element: <CardList items={CardItem} />,
       },
       {
         path: "experience",
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "projects",
         element: <Project />,
+      },
+      {
+        path: "skills",
+        element: <Skills />,
       },
     ],
   },

@@ -24,12 +24,18 @@ const CardList: React.FC<CardListProps> = ({ items }) => {
             index === 0 &&
               "border-0 bg-[url('/src/assets/images/backgrounds/day.jpg')] dark:bg-[url('/src/assets/images/backgrounds/night.jpg')] cursor-default",
             index === 3 &&
-              "border-0 bg-[url('/src/assets/images/backgrounds/white.jpg')] dark:bg-[url('/src/assets/images/backgrounds/black.jpg')] cursor-default",
+              "border-0 bg-[url('/src/assets/images/backgrounds/white.jpg')] dark:bg-[url('/src/assets/images/backgrounds/black.jpg')] cursor-poiter",
             index === 4 && "cursor-default",
             index === 5 && "cursor-default"
           )}
           to={
-            index === 2 ? "/projects" : "/" && index === 1 ? "/experience" : "/"
+            index === 2
+              ? "/projects"
+              : "/" && index === 1
+              ? "/experience"
+              : "/" && index === 3
+              ? "/skills"
+              : "/"
           }
         >
           <div className="flex justify-between items-center">

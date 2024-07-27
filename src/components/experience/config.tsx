@@ -13,23 +13,23 @@ export const ExperienceItem: ExperienceItem[] = [
   },
   {
     key: "Mobile Game Developer",
-    desc: "App store (Self-employed)",
-    date: "2019",
+    desc: "App store (Self employed)",
+    date: "2017 - 2022",
   },
   {
     key: "Java Software Engineer",
     desc: "Codestar (Bootcamp)",
-    date: "2018",
+    date: "1 Month in 2016",
   },
   {
     key: "Network Management",
     desc: "Stand Thai",
-    date: "2017",
+    date: "6 Months in 2016",
   },
   {
     key: "Business Intelligence",
     desc: "Innobiz (Internship)",
-    date: "2016",
+    date: "4 Months in 2015",
   },
   
 
