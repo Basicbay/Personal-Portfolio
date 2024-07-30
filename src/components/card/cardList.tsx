@@ -20,11 +20,11 @@ const CardList: React.FC<CardListProps> = ({ items }) => {
         <Link
           key={item.key}
           className={twMerge(
-            "bg-cover relative flex flex-col gap-y-5 md:max-w-72 h-72 w-full p-7 rounded-xl transition ease-in-out xl:hover:scale-105 duration-100 bg-gray-50 xl:hover:bg-gray-100 border border-gray-200 shadow-md shadow-gray-200  dark:bg-gray-800 xl:hover:dark:bg-gray-700 dark:border-gray-700 dark:shadow-[#03071260] ",
+            "bg-cover relative flex flex-col gap-y-5 md:max-w-72 h-72 w-full p-7 rounded-xl transition ease-in-out xl:hover:scale-105 duration-100  bg-gray-100 dark:bg-gray-800  ",
             index === 0 &&
-              "border-0 bg-[url('/src/assets/images/backgrounds/day.jpg')] dark:bg-[url('/src/assets/images/backgrounds/night.jpg')] cursor-default",
+              " bg-[url('/src/assets/images/backgrounds/day.jpg')] dark:bg-[url('/src/assets/images/backgrounds/night.jpg')] cursor-default",
             index === 3 &&
-              "border-0 bg-[url('/src/assets/images/backgrounds/white.jpg')] dark:bg-[url('/src/assets/images/backgrounds/black.jpg')] cursor-poiter",
+              " bg-[url('/src/assets/images/backgrounds/white.jpg')] dark:bg-[url('/src/assets/images/backgrounds/black.jpg')] cursor-poiter",
             index === 4 && "cursor-default",
             index === 5 && "cursor-default"
           )}

@@ -16,7 +16,7 @@ function Profile() {
   return (
     <div className="flex flex-col gap-y-5 items-center xl:items-start">
       <img
-        className="w-48 h-48 rounded-full p-1 ring-2 ring-gray-300 mb-2 "
+        className="w-48 h-48 rounded-full p-1 ring-2 ring-gray-300 dark:ring-gray-700 mb-2 "
         src={avatar}
         alt="avatar"
       />
@@ -58,7 +58,7 @@ function Profile() {
       </div>
       <div className="flex flex-row xl:flex-col gap-5">
         <button
-          className="flex items-center gap-x-2 hover:underline"
+          className="flex items-center gap-x-2 xl:hover:underline"
           onClick={() => setAlertVisible(true)}
         >
           <Icon icon="fluent:call-12-filled" />
@@ -66,7 +66,7 @@ function Profile() {
         </button>
         <a
           href="mailto: nattagrit.r@gmail.com"
-          className="flex items-center gap-x-2 hover:underline"
+          className="flex items-center gap-x-2 xl:hover:underline"
         >
           <Icon icon="tabler:mail-filled" />
           nattagrit.r@gmail.com

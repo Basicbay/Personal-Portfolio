@@ -1,19 +1,19 @@
-import CSS from "../../../public/icon/CSS.svg";
-import HTML from "../../../public/icon/HTML.svg";
-import JavaScript from "../../../public/icon/JavaScript.svg";
-import TypeScript from "../../../public/icon/TypeScript.svg";
-import React from "../../../public/icon/React.svg";
-import NextJS from "../../../public/icon/NextJS.svg";
-import Redux from "../../../public/icon/Redux.svg";
-import NodeJS from "../../../public/icon/NodeJS.svg";
-import Bun from "../../../public/icon/Bun.svg";
-import Vite from "../../../public/icon/Vite.svg";
-import Mui from "../../../public/icon/Mui.svg";
-import Styled from "../../../public/icon/Styled.svg";
-import TailwindCSS from "../../../public/icon/TailwindCSS.svg";
-import Bootstrap from "../../../public/icon/Bootstrap.svg";
-import Git from "../../../public/icon/Git.svg";
-import Figma from "../../../public/icon/Figma.svg";
+import CSS from "/icon/CSS.svg";
+import HTML from "/icon/HTML.svg";
+import JavaScript from "/icon/JavaScript.svg";
+import TypeScript from "/icon/TypeScript.svg";
+import React from "/icon/React.svg";
+import NextJS from "/icon/NextJS.svg";
+import Redux from "/icon/Redux.svg";
+import NodeJS from "/icon/NodeJS.svg";
+import Bun from "/icon/Bun.svg";
+import Vite from "/icon/Vite.svg";
+import Mui from "/icon/Mui.svg";
+import Styled from "/icon/Styled.svg";
+import TailwindCSS from "/icon/TailwindCSS.svg";
+import Bootstrap from "/icon/Bootstrap.svg";
+import Git from "/icon/Git.svg";
+import Figma from "/icon/Figma.svg";
 
 const skills = [
   { name: CSS, title: "CSS" },
@@ -45,7 +45,7 @@ export default function SkillsList() {
             alt={skill.title}
             className="w-14 h-14"
           />
-          <p className="text-center mt-3 text-xs">{skill.title}</p>
+          <p className="text-center mt-3 text-xs font-medium">{skill.title}</p>
         </div>
       ))}
     </div>

@@ -1,5 +1,5 @@
 import DescAbout from "./descAbout";
-// import DescCertificate from "./descCertificate";
+import DescCertificate from "./descCertificate";
 import DescEducation from "./descEducation";
 import DescExperience from "./descExperience";
 import DescProject from "./descProject";
@@ -35,7 +35,7 @@ interface CardItem {
 
 export const CardItem: CardItem[] = [
   {
-    key: "About",
+    key: "Hello,",
     desc: <DescAbout />,
   },
   {
@@ -59,8 +59,8 @@ export const CardItem: CardItem[] = [
     key: "Education",
     desc: <DescEducation />,
   },
-  // {
-  //   key: "Certificate",
-  //   desc: <DescCertificate />,
-  // },
+  {
+    key: "Certificate",
+    desc: <DescCertificate />,
+  },
 ];

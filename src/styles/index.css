@@ -2,22 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  color-scheme: light dark;
-  background-color: #0f172a;
+html.dark {
   color: #f9fafb;
+  background-color: #0f172a;
+}
+
+html.light {
+  color: #374151;
+  background-color: #ffffff;
+}
+
+ :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   cursor: default;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    background-color: #ffffff;
-    color: #374151;
-  }
 }
 
 body {
