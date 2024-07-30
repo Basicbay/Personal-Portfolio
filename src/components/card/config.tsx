@@ -2,6 +2,7 @@ import DescAbout from "./descAbout";
 import DescCertificate from "./descCertificate";
 import DescEducation from "./descEducation";
 import DescExperience from "./descExperience";
+import { ExperienceItem } from "../experience/config";
 import DescProject from "./descProject";
 import DescSkills from "./descSkills";
 
@@ -41,7 +42,7 @@ export const CardItem: CardItem[] = [
   {
     icon: "tabler:arrow-up",
     key: "Experience",
-    desc: <DescExperience />,
+    desc: <DescExperience items={ExperienceItem} />,
     link: Link,
   },
   {
