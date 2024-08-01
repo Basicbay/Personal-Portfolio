@@ -2,7 +2,7 @@
 **URL:** https://nattagrit.netlify.app/
 
 ## Tech stack
-`HTML` `CSS` `Typescript` `React` `Tailwind CSS`
+`HTML` `CSS` `Typescript` `React` `Tailwind CSS` `Vite` `Bun`
 
 ## Installation
 ```console
