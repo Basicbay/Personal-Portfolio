@@ -13,7 +13,7 @@ interface ExperienceListProps {
 
 const ExperienceList: React.FC<ExperienceListProps> = ({ items }) => {
   return (
-    <ol className="flex flex-col gap-y-10 relative border-s border-gray-200 dark:border-gray-600 ml-28">
+    <ol className="flex flex-col gap-y-10 relative border-s border-gray-200 dark:border-gray-600 ml-24">
       {items.map((item) => (
         <li className="ms-5  ">
           <img

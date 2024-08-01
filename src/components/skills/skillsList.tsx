@@ -14,6 +14,8 @@ import TailwindCSS from "/icon/TailwindCSS.svg";
 import Bootstrap from "/icon/Bootstrap.svg";
 import Git from "/icon/Git.svg";
 import Figma from "/icon/Figma.svg";
+import Jira from "/icon/Jira.svg";
+import Motion from "/icon/Motion.svg";
 
 const skills = [
   { name: CSS, title: "CSS" },
@@ -28,10 +30,13 @@ const skills = [
   { name: Mui, title: "Material UI" },
   { name: Bootstrap, title: "Bootstrap" },
   { name: Styled, title: "Styled Component" },
+  { name: Motion, title: "Framer Motion" },
   { name: Bun, title: "Bun" },
   { name: Vite, title: "Vite" },
-  { name: Git, title: "Version Control" },
   { name: Figma, title: "Figma" },
+  { name: Git, title: "Version Control" },
+  { name: Jira, title: "Jira" },
+
 ];
 
 export default function SkillsList() {
