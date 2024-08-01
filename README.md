@@ -1,9 +1,9 @@
-## Installation instructions
+## Installation
 ```console
-git clone https://github.com/Basicbay/frontend-assingment-bay.git
+bun install
 ```
 ```console
-cd project
+bun dev
 ```
 ```console
 npm install
