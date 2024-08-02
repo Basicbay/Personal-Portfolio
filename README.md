@@ -1,5 +1,5 @@
 # Personal Portfolio 🙋🏻‍♂️
-**URL:** https://nattagrit.netlify.app/
+**URL** https://nattagrit.netlify.app/
 
 ## Tech stack
 `Vite` `Bun` `HTML` `CSS` `Typescript` `React` `Tailwind CSS` `Daisy UI`
