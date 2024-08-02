@@ -23,15 +23,15 @@ const ProjectList: React.FC<ProjectListProps> = ({ items }) => {
           href={item.link}
           target="_blank"
         >
-          <img src={item.image} alt={item.key} className=" rounded-t-xl" />
+          <img src={item.image} alt={item.key} className=" rounded-t-xl border-b-[1px] border-gray-200 dark:border-gray-800" />
           <div className="flex flex-col gap-y-2 p-3 py-4">
             <span
               className={twMerge(
                 "text-xs font-medium px-2.5 py-0.5 rounded-lg w-fit",
                 item.tag === "Website"
                   ? "bg-indigo-100 text-indigo-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-indigo-900 dark:text-indigo-300"
-                  : "", 
-                  item.tag === "Web App"
+                  : "",
+                item.tag === "Web App"
                   ? "bg-sky-100 text-sky-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-sky-900 dark:text-sky-300"
                   : "",
                 item.tag === "Application"
@@ -46,7 +46,7 @@ const ProjectList: React.FC<ProjectListProps> = ({ items }) => {
             </span>
             <div>
               <p className="text-lg font-bold">{item.key}</p>
-              <p className="xl:text-sm break-words text-gray-500 dark:text-gray-400 truncate ...">
+              <p className="text-sm break-words text-gray-500 dark:text-gray-400">
                 {item.desc}
               </p>
             </div>

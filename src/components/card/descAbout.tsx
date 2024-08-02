@@ -1,10 +1,13 @@
 export default function DescAbout() {
   return (
-    <div className=" xl:tracking-wide flex flex-col gap-y-3">
+    <div className="text-sm tracking-wide flex flex-col gap-y-3">
       <p>
-        👋🏻 I'm Nattagrit, a Frontend Developer with one year of experience. I am
-        actively seeking new opportunities to contribute to innovative projects
-        and grow in a dynamic, challenging environment.
+        👋🏻 I'm Bay, a Frontend Developer with one year of experience in React
+        TypeScript and NextJS
+      </p>
+      <p>
+        I'm open to discussing potential collaborations and job opportunities.
+        Feel free to reach out. Thank you!
       </p>
     </div>
   );
